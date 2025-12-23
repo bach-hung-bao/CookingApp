@@ -14,34 +14,62 @@ Hệ thống cho phép:
 ---
 
 ## 🧱 Kiến trúc tổng thể
-
+```
 CookingApp/
 │
-├
+├── ingredient_detector/                # Backend + AI
+│   ├── api/                            # FastAPI backend
+│   │   ├── __pycache__/                
+│   │   ├── weights/                    # YOLO model weights (best.pt) (ignore)
+│   │   ├── .env                       
+│   │   ├── detect_service.py           # Ingredient detection logic
+│   │   ├── history.json                # Search / detection history
+│   │   ├── main.py                     # FastAPI entry point
+│   │   ├── recipe_service.py           # Rule-based recipe recommendation
+│   │   ├── recipe_service_llm.py       # LLM-based recipe generation
+│   │   ├── search_service_llm.py       # LLM-based search
+│   │   └── requirements.txt           
+│   │
+│   ├── datasets/                       # Dataset (ignore)
+│   │   ├── README.dataset.txt
+│   │   └── README.roboflow.txt
+│   │
+│   ├── datasets.zip                    # Zipped dataset (ignore)
+│   └── recipes.json                    # Recipe database
 │
-├── ingredient_detector/ # Backend (FastAPI)
-│ ├── api/
-│ │ ├── main.py
-│ │ ├── detect_service.py
-│ │ ├── recipe_service.py
-│ │ ├── recipe_service_llm.py
-│ │ ├── search_service_llm.py
-│ │ └── requirements.txt
-│ │
-│ └── recipes.json
+├── MyApp/                              # Frontend (React Native + Expo)
+│   ├── app/                            # App routing (Expo Router)
+│   ├── assets/                         # Images, icons
+│   ├── components/                     # Reusable UI components
+│   ├── constants/                      # Constants, colors, configs
+│   ├── hooks/                          # Custom React hooks            
+│   ├── scripts/                        # Helper scripts
+│   ├── utils/                          # Utility functions
+│   ├── api.js                          # Frontend API calls
+│   ├── app.json                        # Expo app config
+│   ├── config.js                       # API base URL config
+│   ├── eslint.config.js
+│   ├── expo-env.d.ts
+│   ├── package.json
+│   ├── package-lock.json
+│   ├── README.md                       # Frontend README
+│   └── tsconfig.json
 │
-├── MyApp/ # Frontend (Expo - React Native)
+├── yolo_env/                           # Python virtual environment (ignore)
 │
-├── yolov5/ 
-├── yolo_env(.\yolo_env\Scripts\activate)
-└── .gitignore
+├── yolov5/                             # YOLOv5 source code
+│
+└── .gitignore                          # Git ignore rules
+```
 Do dung lượng lớn và bảo mật:
 - ❌ **KHÔNG có** `best.pt` trong repo
 - ❌ **KHÔNG có** dataset
 - ❌ **KHÔNG có** `.env`, `yolo_env`, `node_modules`
 
 👉 Người dùng cần **tải thủ công** các thành phần này theo hướng dẫn bên dưới.
-
+```
+.env: lấy GROQ_API_KEY: https://console.groq.com/keys
+```
 ## 🤖 AI Model & Dataset
 📥 Tải tại Google Drive:  
 👉 https://drive.google.com/drive/folders/1LsUa_glu7nuI68yD61NAiBv8XvyBAlYY?usp=sharing
