@@ -1,0 +1,55 @@
+# ======================
+# ENV / SECRETS
+# ======================
+.env
+*.env
+ingredient_detector/api/.env
+
+# ======================
+# PYTHON
+# ======================
+__pycache__/
+*.pyc
+*.pyo
+yolo_env/
+
+# ======================
+# YOLO (DATA / WEIGHTS / RUNS)
+# ======================
+ingredient_detector/datasets/
+ingredient_detector/api/weights/
+yolov5/datasets/
+yolov5/runs/
+yolov5/*.pt
+
+# ======================
+# NODE / EXPO / REACT NATIVE
+# ======================
+node_modules/
+.expo/
+.expo-shared/
+dist/
+build/
+web-build/
+expo-env.d.ts
+
+# ======================
+# LOGS
+# ======================
+*.log
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# ======================
+# OS / IDE
+# ======================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ======================
+# TEST / TEMP
+# ======================
+test_*.py

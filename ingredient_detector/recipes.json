@@ -1,0 +1,225 @@
+[
+  {
+    "id": "1",
+    "title": "Gà rang cháy tỏi",
+    "ingredients": ["Thịt gà", "Tỏi", "Hành", "Đường", "Ớt khô"],
+    "steps": [
+      "Thịt gà chặt miếng vừa ăn",
+      "Ướp nước mắm, đường, tiêu và tỏi băm",
+      "Phi thơm tỏi vàng",
+      "Cho gà vào rang đến khi săn và cháy cạnh",
+      "Nêm lại vừa miệng, rắc hành lá"
+    ],
+    "image": null
+  },
+  {
+    "id": "2",
+    "title": "Thịt heo xào nấm",
+    "ingredients": ["Thịt heo", "Nấm", "Hành", "Tỏi", "Đường"],
+    "steps": [
+      "Thịt heo thái lát, ướp tiêu và tỏi",
+      "Phi thơm hành tỏi",
+      "Cho thịt vào xào săn",
+      "Thêm nấm và xào 5 phút",
+      "Nêm nước mắm và đường cho đậm vị"
+    ],
+    "image": null
+  },
+  {
+    "id": "3",
+    "title": "Củ cải xào chay",
+    "ingredients": ["Củ cải", "Tỏi", "Hành lá", "Đường"],
+    "steps": [
+      "Củ cải gọt vỏ, thái lát mỏng",
+      "Phi thơm tỏi",
+      "Cho củ cải vào xào chín",
+      "Thêm đường và muối",
+      "Rắc hành lá trước khi tắt bếp"
+    ],
+    "image": null
+  },
+  {
+    "id": "4",
+    "title": "Canh bí trắng nấu thịt heo",
+    "ingredients": ["Bí trắng", "Thịt heo", "Hành lá", "Tỏi"],
+    "steps": [
+      "Thịt heo băm nhỏ, ướp muối và tiêu",
+      "Bí trắng gọt vỏ, cắt khúc",
+      "Phi tỏi, xào sơ thịt",
+      "Thêm nước và bí vào nấu đến khi mềm",
+      "Nêm nếm lại cho vừa ăn"
+    ],
+    "image": null
+  },
+  {
+    "id": "5",
+    "title": "Mì tôm xào thịt gà và rau củ",
+    "ingredients": ["Mì tôm", "Thịt gà", "Cà rốt", "Cà chua", "Hành", "Tỏi"],
+    "steps": [
+      "Luộc mì chín tới và để ráo",
+      "Phi tỏi",
+      "Cho thịt gà và cà rốt vào xào chín",
+      "Thêm cà chua",
+      "Cho mì vào đảo đều, nêm nước mắm và tiêu"
+    ],
+    "image": null
+  },
+  {
+    "id": "6",
+    "title": "Thịt cừu nướng chanh tỏi",
+    "ingredients": ["Thịt cừu", "Tỏi", "Chanh", "Hành", "Đường"],
+    "steps": [
+      "Ướp thịt cừu với chanh, tỏi, tiêu, dầu olive và muối",
+      "Để 1 tiếng",
+      "Nướng vàng 2 mặt",
+      "Dùng kèm rau củ nướng"
+    ],
+    "image": null
+  },
+  {
+    "id": "7",
+    "title": "Khoai lang chiên mắm đường",
+    "ingredients": ["Khoai lang", "Đường", "Tỏi", "Ớt khô"],
+    "steps": [
+      "Khoai lang gọt vỏ, cắt miếng",
+      "Chiên vàng",
+      "Nấu hỗn hợp mắm đường tỏi ớt",
+      "Cho khoai vào đảo đều đến khi keo lại"
+    ],
+    "image": null
+  },
+  {
+    "id": "8",
+    "title": "Măng xào thịt heo",
+    "ingredients": ["Măng tre", "Thịt heo", "Tỏi", "Hành lá"],
+    "steps": [
+      "Măng luộc qua cho bớt chua",
+      "Thịt heo thái lát ướp tỏi",
+      "Phi hành tỏi",
+      "Xào thịt săn lại",
+      "Thêm măng và nêm nước mắm tiêu"
+    ],
+    "image": null
+  },
+  {
+    "id": "9",
+    "title": "Bắp xào bơ tỏi",
+    "ingredients": ["Bắp", "Tỏi", "Đường", "Bơ"],
+    "steps": [
+      "Tách hạt bắp, luộc sơ",
+      "Phi thơm tỏi với bơ",
+      "Cho bắp vào đảo",
+      "Nêm đường, muối, tiêu"
+    ],
+    "image": null
+  },
+  {
+    "id": "10",
+    "title": "Canh đậu đỏ củ dền",
+    "ingredients": ["Đậu đỏ", "Củ dền", "Đường"],
+    "steps": [
+      "Ngâm đậu đỏ qua đêm",
+      "Nấu đậu với củ dền cắt khối",
+      "Nêm đường vừa miệng",
+      "Ăn nóng hoặc lạnh đều ngon"
+    ],
+    "image": null
+  },
+  {
+    "id": "11",
+    "title": "Mướp hương xào trứng",
+    "ingredients": ["Mướp hương", "Trứng", "Hành", "Tỏi"],
+    "steps": [
+      "Mướp gọt vỏ, cắt lát",
+      "Đánh tan trứng và chiên sơ",
+      "Cho mướp vào xào",
+      "Nêm muối, tiêu, hành lá"
+    ],
+    "image": null
+  },
+  {
+    "id": "12",
+    "title": "Đậu phụ sốt cà chua",
+    "ingredients": ["Đậu", "Cà chua", "Hành", "Tỏi", "Đường"],
+    "steps": [
+      "Chiên vàng đậu",
+      "Nấu cà chua thành sốt",
+      "Phi hành tỏi",
+      "Cho đậu vào đảo đều",
+      "Nêm mắm đường cho đậm vị"
+    ],
+    "image": null
+  },
+  {
+    "id": "13",
+    "title": "Cà rốt xào nấm",
+    "ingredients": ["Cà rốt", "Nấm", "Hành", "Tỏi"],
+    "steps": [
+      "Cà rốt cắt lát, nấm thái mỏng",
+      "Phi hành tỏi",
+      "Cho cà rốt vào xào 2 phút",
+      "Thêm nấm và nêm nước tương tiêu"
+    ],
+    "image": null
+  },
+  {
+    "id": "14",
+    "title": "Đậu xào măng chay",
+    "ingredients": ["Đậu", "Măng tre", "Hành", "Tỏi"],
+    "steps": [
+      "Măng luộc qua, thái nhỏ",
+      "Phi hành tỏi",
+      "Cho đậu và măng vào đảo đều",
+      "Nêm nước tương và chút đường"
+    ],
+    "image": null
+  },
+  {
+    "id": "15",
+    "title": "Bí trắng xào tỏi",
+    "ingredients": ["Bí trắng", "Tỏi", "Hành"],
+    "steps": [
+      "Bí trắng gọt vỏ, thái sợi",
+      "Phi tỏi",
+      "Cho bí vào đảo đều",
+      "Nêm muối, tiêu cho vừa ăn"
+    ],
+    "image": null
+  },
+  {
+    "id": "16",
+    "title": "Cà chua nhồi thịt heo hấp",
+    "ingredients": ["Cà chua", "Thịt heo", "Hành", "Tỏi"],
+    "steps": [
+      "Cà chua khoét ruột",
+      "Nhồi thịt heo xay đã ướp gia vị",
+      "Hấp 10–15 phút",
+      "Rưới sốt cà chua đậm đặc lên trên"
+    ],
+    "image": null
+  },
+  {
+    "id": "17",
+    "title": "Củ dền hầm thịt gà",
+    "ingredients": ["Củ dền", "Thịt gà", "Hành", "Tỏi"],
+    "steps": [
+      "Củ dền gọt vỏ, cắt khối",
+      "Ướp gà với tiêu, hành, tỏi",
+      "Hầm gà và củ dền đến khi mềm",
+      "Nêm muối và tiêu"
+    ],
+    "image": null
+  },
+  {
+    "id": "18",
+    "title": "Ngô chiên giòn",
+    "ingredients": ["Ngô", "Đường", "Bột mì"],
+    "steps": [
+      "Ngô tách hạt",
+      "Trộn bột mì và đường",
+      "Chiên ngập dầu đến khi vàng giòn",
+      "Để ráo dầu và thưởng thức"
+    ],
+    "image": null
+  }
+]
