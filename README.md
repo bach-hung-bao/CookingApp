@@ -74,3 +74,25 @@ Do dung lượng lớn và bảo mật:
 📥 Tải tại Google Drive:  
 👉 https://drive.google.com/drive/folders/1LsUa_glu7nuI68yD61NAiBv8XvyBAlYY?usp=sharing
 
+###  Thiết Lập Backend (Python API)
+
+####  Tạo và Kích Hoạt Virtual Environment
+```bash
+# Tạo virtual environment
+python -m venv yolo_env
+
+# Kích hoạt (Windows PowerShell)
+yolo_env\Scripts\Activate.ps1
+
+# Kích hoạt (Windows CMD)
+yolo_env\Scripts\activate.bat
+
+# Kích hoạt (macOS/Linux)
+source yolo_env/bin/activate
+```
+```
+# Cài YOLOv5 framework
+pip install -r yolov5/requirements.txt
+
+# Cài Backend API dependencies
+pip install -r ingredient_detector/api/requirements.txt
