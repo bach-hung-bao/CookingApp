@@ -30,11 +30,8 @@ CookingApp/
 │   │   ├── search_service_llm.py       # LLM-based search
 │   │   └── requirements.txt           
 │   │
-│   ├── datasets/                       # Dataset (ignore)
-│   │   ├── README.dataset.txt
-│   │   └── README.roboflow.txt
-│   │
-│   ├── datasets.zip                    # Zipped dataset (ignore)
+│   ├── datasets/                   
+│   │                  
 │   └── recipes.json                    # Recipe database
 │
 ├── MyApp/                              # Frontend (React Native + Expo)
